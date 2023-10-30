@@ -71,7 +71,7 @@ This is the result of the best model from the three algorithms that I used
 
 It can be seen from the bar chart above from the three algorithm models that I used, that Random Forest has the smallest error value.
 
-This is the result of the model
+This is the result of the model I used  
 ![hasil model predisi](https://raw.githubusercontent.com/onedayxzn/submission_file/master/SharedScreenshot.jpg)
 
 From the table above, it can be seen that prediction using Random Forest gives the closest results compared to the other two models.
