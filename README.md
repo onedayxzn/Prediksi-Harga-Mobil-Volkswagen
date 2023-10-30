@@ -1,106 +1,98 @@
 ## Domain Proyek.
 
-- Persaingan di sektor industri makin tahun makin ketat dan kompetitif, sehingga perusahaan-perusahaan secara tidak langusng dituntut untuk terus berkreasi dan berinovasi dalam menawarkan produk atau jasa yang akan dijualnya
-  agar setiap perusahaan, baik yang menawarkan produk ataupun jasa mempunyai tujuan untuk tetap hidup dan berkembang. Ataupun konsumen yang sudah dimiliki perusahaan tidak berpindah ke produk lain dan untuk menarik konsumen baru untuk
-  mengonsumsi produk yang sudah dihasilkan suatu perusahaan. Seiring dengan ide tersebut konsep pemasaran pun turut berkembang. Kegiatan pemasaran sekarang sudah difokuskan pada pemuasan kebutuhan konsumen. Pemasaran itu sendiri
-  harus sudah dipikirkan jauh hari sebelumnya, agar lebih tepat pada sasaran konsumen. Karena konsumen yang potensial akan mempertimbangkan berbagai faktor, diantaranya factor nilai, citra merek dan kepercayaan akan merek tersebut
-  sebelum memilih produk yang dapat memberikan kepuasan tertinggi terhadap konsumen. Hal tersebut juga dialami di bidang bisnis industri otomotif, munculnya pesaing-pesaing baru dengan produk yang dipasarkan menyebabkan makin banyak pilihan konsumen untuk memilih dan membeli produk manakah yang akan di konsumsi untuk memenuhi kebutuhannya Otomotif sendiri adalah sebuah industri yang bergerak dalam bidang transportasi yang memproduksi kebutuhan masyarakat berupa kendaraan sebagai
-  alat transportasi. Salah satunya adalah kendaraan roda empat yaitu mobil, telah menjadi kebutuhan yang tidak dapat dipisahkan dari kehidupan manusia. Ada beberapa hal yang mendorong tingginya penjualan otomotif di Indonesia yaitu
-  makin meningkatnya jumlah kelas menengah keatas di Indonesia Naiknya pendapatan per kapita mendorong banyak kalangan mengalami kenaikan kesejahteraan dan masuk kepada kategori golongan dengan gaya hidup yang mulai eksklusif, dan Indonesia memiliki sumber daya manusia (SDM) yang banyak, sehingga memungkinkan adanya sebuah peluang luas bagi industry manufaktur dalam negeri untuk makin berkembang dalam menunjang industry otomotif di dalam negeri. Pada dasarnya masyarakat membeli mobil digunakan sebagai sarana mobilitas dari satu tempat ketempat lainnya, dan sebagai alat angkut barang-barang dalam
-  kehidupan sehari-hari. Ditengah perkembangan industry mobil saat ini yang makin kompetitif membuat persaingan antar produsen mobil makin ketat, dan membuat produsen mobil untuk selalu mengembangkan produknya dan berupaya merebut pangsa pasar yang ada.
+<div style="text-align: justify">Competition in the industrial sector is getting tighter and more competitive every year, so companies are indirectly required to continue to be creative and innovate in offering products or services to be sold. so that every company, whether offering products or services, has the aim of staying alive and growing. Or the consumers that the company already has do not move to other products and to attract new consumers to consume products that have been produced by a company. consume products that have been produced by a company. Along with this idea, the marketing concept has also developed. Marketing activities are now focused on satisfying consumer needs. </div> <br>
 
-- Masalah yang harus diselesaikan adalah bagaimana caranya produk mobil tersebut dapat bersaing didunia pasar, serta dapat memprediksi harga dari produk tersebut.
+<div style="text-align: justify">Marketing itself must be thought out long beforehand, to be more precise on target consumers. Because potential consumers will consider various factors, including value factors, brand image and trust in the brand before choosing a product that can provide the highest satisfaction to consumers. This is also experienced in the automotive industry business sector, the emergence of new competitors with marketed products causes more consumer choices to choose and buy which products will be consumed to meet their needs Automotive itself is an industry engaged in transportation that produces community needs in the form of vehicles as a means of transportation. One of them is a four-wheeled vehicle, namely a car, which has become a necessity that cannot be separated from human life. There are several things that encourage high automotive sales in Indonesia, namely the increasing number of upper middle class in Indonesia. The increase in per capita income encourages many people to experience an increase in welfare and enter the category of groups with lifestyles that are starting to be exclusive, and Indonesia has a lot of human resources (HR), thus allowing a wide opportunity for the domestic manufacturing industry to develop further in supporting the domestic automotive industry.</div> <br>
 
-Hasil riset terkait dapat dilihat dari tautan berikut:
+<div style="text-align: justify">In general, people buy cars as a means of mobility from one place to another, and as a means of transporting goods in their daily lives. In the midst of the development of the car industry today, which is increasingly competitive, competition between car manufacturers is getting tighter, and makes car manufacturers to always develop their products and try to capture existing market share.</div> <br>
 
-- [unpas.ac.id](http://repository.unpas.ac.id/41755/4/7.%20BAB%201.pdf)
+- The problem that must be solved is how the car product can compete in the market, and can predict the price of the product.
 
 ## Business Understanding.
 
+<div style="text-align: justify">
+
 ### Problem Statements
 
-1. Features apakah yang berdampak untuk harga mobil?
-2. Algorima apa yang sesuai untuk melakukan prediksi harga?
+1. What features have an impact on car prices?
+2. What algorithms are suitable for price prediction?
 
 ### Goals
 
-Membuat prediksi harga mobil agar para pembeli dapat dengan mudah memperhitungkan harga mobil pada masa mendatang
+Make car price predictions so that buyers can easily calculate the price of cars in the future
 
 ### Solution statements
 
-Solution Statements yang akan dilakukan adalah dengan menerapkan 3 algoritma Machine Learning yaitu :
+Solution Statements that will be done is by applying 3 Machine Learning algorithms, which are:
 
 - **Random Forest**.<br>
-  Algoritma random forest adalah salah satu algoritma supervised learning. Dia dapat digunakan untuk menyelesaikan masalah klasifikasi dan regresi. Random forest juga merupakan algoritma yang sering digunakan karena cukup sederhana tetapi memiliki stabilitas yang mumpuni.
+  Random forest algorithm is one of the supervised learning algorithms. It can be used to solve classification and regression problems. Random forest is also a frequently used algorithm because it is quite simple but has great stability.
 - **Boosting Algorithm**.<br>
-  Algoritma boosting bekerja dengan membangun model dari data latih. Kemudian Dia membuat model kedua yang bertugas memperbaiki kesalahan dari model pertama. Model ditambahkan sampai data latih terprediksi dengan baik atau telah mencapai jumlah maksimum model untuk ditambahkan.
+  The boosting algorithm works by building a model from the training data. It then builds a second model that corrects the errors of the first model. Models are added until the training data is well predicted or has reached the maximum number of models to add.
 - **K-Nearest Neighbor**.<br>
-  KNN adalah algoritma yang relatif sederhana dibandingkan dengan algoritma lain. Algoritma KNN menggunakan ‘kesamaan fitur’ untuk memprediksi nilai dari setiap data yang baru. Dengan kata lain, setiap data baru diberi nilai berdasarkan seberapa mirip titik tersebut dalam set pelatihan.
+  KNN is a relatively simple algorithm compared to other algorithms. The KNN algorithm uses 'feature similarity' to predict the value of each new data point. In other words, each new data point is assigned a value based on how similar it is in the training set.
 
-dengan diterapkannya 3 algoritma di atas, maka nantinya akan dicari algoritma mana yang memiliki tingkat error atau kesalahan yang paling kecil. Sehingga harga prediksi mendekati harga asli.
+By applying the 3 algorithms above, it will be sought which algorithm has the smallest error rate or error. So that the predicted price is close to the original price.
 
 ## Data Understanding
 
-Data atau dataset yang digunakan pada proyek machine learning ini adalah data **100,000 UK Used Car Data set** yang didapat dari situs kaggle. Link dataset dapat dilihat dari tautan berikut [vw.csv](https://www.kaggle.com/adityadesai13/used-car-dataset-ford-and-mercedes?select=vw.csv)
+The data or datasets used in this machine learning project are the following **100,000 UK Used Car Data set** that was obtained from the kaggle site. The dataset link can be seen from the following link [vw.csv](https://www.kaggle.com/adityadesai13/used-car-dataset-ford-and-mercedes?select=vw.csv)
 
-Variabel-variabel pada House Sales in King County, USA dataset adalah sebagai berikut :
+The variables in the House Sales in King County, USA dataset are as follows:
 
-- model : merupakan daftar model yang ada pada mobil Volkswagen.
-- year : merupakan daftar tahun dirilisnya model mobil.
-- Price : merupakan daftar harga dari mobil (dalam satuan euro).
-- transmission : merupakan daftar transmission pada mobil .
-- mileage : merupakan daftar jarak tempuh yang dapat dilalui.
-- fuelType : merupakan daftar tipe bahan bakar yang digunakan.
-- tax : merupakan daftar pajak
-- mpg : merupakan daftar efesiensi bahan bakar.
-- engineSize : merupakan daftar kapasistas mesin.
+- model : is a list of models that exist in Volkswagen cars.
+- year : is a list of the year the car model was released.
+- Price : lists the price of the car (in euros).
+- transmission : is a list of transmissions on the car.
+- mileage : is a list of mileage that can be traveled.
+- fuelType : lists the type of fuel used.
+- tax: is a list of taxes
+- mpg: is a list of fuel efficiency.
+- engineSize: is a list of engine capacities.
 
 ## Data Preparation
 
-Data preparation yang digunakan oleh saya yaitu :
+The data preparation used by me is:
 
-- Seleksi data : menyeleksi data apakah data tersebut ada yang kosong atau tidak, jika ada data kosong maka saya akan.menghapusnya
-- Membagi data menjadi data training dan test : untuk membagi data untuk dilatih dan tes.
-- Menangani Outliers = menangani sampel yang nilainya sangat jauh.
-- Menggunakan OneHotEncoder = melakukan proses encoding fitur model, transmission, dan fueltype.
-- Reduksi Dimensi Dengan PCA = mengurangi jumlah fitur dengan mempertahankan informasi pada data.
-- Standarisasi = Membantu membuat fitur data menjadi bentuk yang lebih mudah diolah algoritma.
+- Data selection: selecting data whether the data is empty or not, if there is empty data then I will delete it.
+- Dividing data into training and test data: to divide data for training and test.
+- Handling Outliers = handling samples whose values are very far away.
+- Using OneHotEncoder = encoding the model, transmission, and fueltype features.
+- Dimensionality Reduction with PCA = reduces the number of features while maintaining the information in the data.
+- Standardization = Helps make data features into a form that is easier for algorithms to process.
 
 ## Modeling
 
-Proses modeling yang saya lakukan pada data ini adalah dengan menggabungkan tiga algoritma machine learning kemudian dicari performa yang paling baik dari ketiga algoritma machine learning tersebut.
+The modeling process I did on this data was to combine three machine learning algorithms and then find the best performance of the three machine learning algorithms.
 
-Berikut adalah hasil dari model terbaik dari ketiga algoritma yang saya gunakan
+This is the result of the best model from the three algorithms that I used
 
 ![Bar chart](https://raw.githubusercontent.com/onedayxzn/submission_file/master/output.png)
 
-dapat dilihat dari bar char di atas dari ketiga model algoritma yang saya pakai, bahwa Random Forest lah yang memiliki nilai error yang paling kecil.
+It can be seen from the bar chart above from the three algorithm models that I used, that Random Forest has the smallest error value.
 
-berikut adalah hasil dari modelnya  
+This is the result of the model
 ![hasil model predisi](https://raw.githubusercontent.com/onedayxzn/submission_file/master/SharedScreenshot.jpg)
 
-dari gambar tabel di atas dapat dilihat bahwa prediksi menggunakan Random Forest memberikan hasil yang paling mendekati dibandingkan dengan kedua model lainnya.
+From the table above, it can be seen that prediction using Random Forest gives the closest results compared to the other two models.
 
 ## Evaluation
 
-Evaluasi metrik yang digunakan untuk mengukur kinerja model adalah metrik mse (Mean Squared Error), karena kasus yang saya pilih merupakan kasus regresi.
+The evaluation metric used to measure the performance of the model is the mse (Mean Squared Error) metric, as my chosen case is a regression case.
 
-MSE pada dasarnya mengukur kesalahan kuadrat rata-rata dari prediksi kita. Untuk setiap poin, dia menghitung selisih kuadrat antara prediksi dan target kemudian merata-rata nilai-nilai itu.
+MSE basically measures the mean squared error of our predictions. For each point, it calculates the squared difference between the prediction and the target and then averages those values.
 
-makin tinggi nilai ini, makin buruk modelnya. Nilai MSE tidak pernah negatif, karena kita menguadratkan kesalahan prediksi individu sebelum menjumlahkannya, tetapi akan menjadi nol untuk model yang sempurna.
+The higher this value, the worse the model. The MSE value is never negative, as we square the individual prediction errors before summing them, but would be zero for a perfect model.
 
-Keuntungan: Berguna jika kita memiliki nilai tak terduga yang harus kita pedulikan. Nilai sangat tinggi atau rendah yang harus kita perhatikan.<br>
+Benefit: Useful if we have unexpected values that we have to care about. A very high or low value that we have to pay attention to.<br>
 
-Kerugian: Jika kita membuat satu prediksi yang sangat buruk, kuadrat akan membuat kesalahan lebih buruk dan itu mungkin membuat metrik cenderung melebih-lebihkan keburukan model. Itu adalah perilaku yang sangat bermasalah jika kita memiliki data yang noisy (yaitu, data yang karena alasan apa pun tidak sepenuhnya dapat diandalkan) bahkan model "sempurna" mungkin memiliki MSE tinggi dalam situasi itu, sehingga menjadi sulit untuk menilai seberapa baik model sedang melakukan. Di sisi lain, jika semua kesalahan kecil, atau lebih tepatnya, lebih kecil dari 1, dari efek sebaliknya dirasakan: kita dapat meremehkan keburukan model.
+Weaknesses: If we make one very bad prediction, squaring will make the error worse and that might make the metric tend to overestimate the badness of the model. That is a very problematic behavior if we have noisy data (i.e., data that for whatever reason is not completely reliable) even a "perfect" model may have a high MSE in that situation, so it becomes difficult to judge how well the model is performing. On the other hand, if all errors are small, or more precisely, smaller than 1, than the opposite effect is felt: we can underestimate the badness of the model.
 
-formula dari metrik MSE adalah sebagai berikut
+The formula of MSE metric is as follows
 
 ![formula metrik MSE](https://raw.githubusercontent.com/onedayxzn/submission_file/master/2021071619431112f1106e20559e77c855cea11d1b1479.jpeg)
 
-keterangan : <br>
-N : Jumlah dataset. <br>
-yi = nilai sebenarnya.<br>
-y_pred = nilai prediksi.<br>
-
-cara menerapkan metrik tersebut pada kode adalah sebagai berikut :
-![kode mse](https://raw.githubusercontent.com/onedayxzn/submission_file/master/SharedScreenshot1.jpg)
+Description:  
+N : Number of datasets.  
+yi = actual value.  
+y_pred = predicted value.
